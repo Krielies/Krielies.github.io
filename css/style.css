@@ -92,8 +92,14 @@
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
 }
-
-
+.picture_desc_one{
+  height: 300px;
+  transform: rotate(180deg);
+}
+.proj_para{
+  padding-left: 30%;
+  padding-right: 30%;
+}
 .side{
   background-image: radial-gradient(circle, white, rgba(134, 134, 134, 0.493), rgb(65, 64, 64));
 }
@@ -103,7 +109,7 @@
   padding-top: 150px;
 }
 body{
-  background-image: radial-gradient(circle, rgb(233, 233, 233), rgba(165, 164, 164, 0.493), rgb(153, 133, 133));
+  background-image: radial-gradient(circle, rgb(233, 233, 233), rgba(159, 157, 189, 0.493), rgb(166, 135, 216));
 }
 #abt_me{
   padding-left: 20%;
